@@ -1,0 +1,6 @@
+tree <- read.tree("your_tree_file")
+tip <- c("sp1",
+"sp2",
+"sp3")
+trfn =keep.tip(tree, tip)
+write.tree(trfn, file = "your_tree_file_reduced")
